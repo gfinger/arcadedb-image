@@ -4,7 +4,7 @@ RUN apt-get install -y apt-utils build-essential sudo git wget zsh unzip
 RUN apt-get install -y openjdk-11-jdk
 RUN apt-get install -y maven
 
-ENV ARCADEDB_VERSION=23.3.1
+ENV ARCADEDB_VERSION=23.6.1
 ENV GREMLIN_SERVER_VERSION=3.6.1
 ENV OPENCYPHER_VERSION=9.0.20190305
 
